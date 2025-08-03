@@ -1,0 +1,23 @@
+# Virtual environments
+eye_env/
+venv/
+env/
+.env
+
+# Model weights (too large for git)
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.model
+
+# System files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.so
+
+# Large assets
+assets/out_gif.gif
